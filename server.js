@@ -12,7 +12,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
-  res.render('Home', {
+  res.render('home', {
     name: 'gael nÚÑez mirANda'
   });
 });
